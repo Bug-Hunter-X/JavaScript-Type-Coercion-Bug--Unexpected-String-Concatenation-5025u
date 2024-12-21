@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in JavaScript related to type coercion. The `myFunc` function intends to add two numbers, but due to JavaScript's dynamic typing, passing a number and a string results in string concatenation.  The `bugSolution.js` file provides a corrected version that explicitly checks and handles type mismatches.
